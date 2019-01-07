@@ -2,7 +2,21 @@
 # 使用方式
 使用eclipse导入，数据库是使用的Mysql，需要在本地数据库创建相应的表，修改properties这个文件
 # 部分页面
-
+首页<br>
+![Image text](images/index.PNG) <br>
+<br>
+分页显示学生信息<br>
+![Image text](images/stuListByPage.PNG) <br>
+<br>
+添加学生的页面<br>
+![Image text](images/addStu.PNG) <br>
+<br>
+查询结果的页面<br>
+![Image text](images/query.PNG) <br>
+<br>
+修改学生信息的页面<br>
+![Image text](images/updateStu.PNG) <br>
+<br>
 # B/S架构的学生管理系统
 一、	设计模式<br>
 三层架构模式<br>
