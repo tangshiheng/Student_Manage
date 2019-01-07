@@ -15,6 +15,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<!-- test update -->
 	<div class="container">
 	<form action="UpdateStu" method="post">
 		<input type="hidden" name="stuNo" value="${oldStu.stuNo}"/>
