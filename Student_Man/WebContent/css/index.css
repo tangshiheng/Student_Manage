@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+#table{
+	border:1px;
+	width: 60%;
+	height: 90%;
+	position: absolute;
+	left: 30%;
+}
+#innerBorder1{
+	background-color: whitesmoke;
+	border: 2px solid red;
+	position: absolute;
+	width: 60%;
+	height: 60%;
+	left: 20%;
+	top: 10%;
+}
+#innerBorder2{
+	/*border: 1px solid red;*/
+	position: absolute;
+	width: 60%;
+	height: 20%;
+	left: 20%;
+	top: 70%;
+}
