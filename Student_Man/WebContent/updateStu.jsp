@@ -15,7 +15,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<!-- test update second-->
+	<!-- test update second git change-->
 	<div class="container">
 	<form action="UpdateStu" method="post">
 		<input type="hidden" name="stuNo" value="${oldStu.stuNo}"/>
