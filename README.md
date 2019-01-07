@@ -2,14 +2,18 @@
 # B/S架构的学生管理系统
 一、	设计模式<br>
 三层架构模式<br>
+<hr>
 二、	数据库的创建<br>
 学生信息表、课程信息表、成绩表<br>
+<hr>
 三、	使用技术<br>
 前端：html、css、js、jquery框架、bootstrap框架、jsp页面<br>
 后端：java语言、servlet处理<br>
 数据库：oracle<br>
+<hr>
 四、	功能<br>
 达到对学生信息的添加，修改，删除，查询，分页显示信息<br>
+<hr>
 五、	具体实现<br>
 表示层：html+css+bootstrap<br>
 index.html:管理员的登录界面 action到loginServlet.java<br>
@@ -27,6 +31,7 @@ QueryByOptionServlet:根据给定的信息查询学生信息<br>
 StuListServlet:单页显示全部学生信息<br>
 UpdateServlet:接收传入的学生信息，封装成一个学生对象oldStu，然后传给updateStu.jsp<br>
 UpdateStuServlet:接收updateStu.jsp传来的学生信息，封装成一个新的学生对象<br>
+<hr>
 业务逻辑层：<br>
 		/**<br>
 	 * 处理servlet传过来的数据，使用dao层的login()方法<br>
@@ -77,6 +82,7 @@ UpdateStuServlet:接收updateStu.jsp传来的学生信息，封装成一个新�
 	 * @return<br>
 	 */<br>
 	PageBean<Student> queryStuByPage(int currentPage);<br>
+	<hr>
 数据访问层：<br>
 	/**<br>
 	 * 管理员登录<br>
@@ -149,9 +155,11 @@ UpdateStuServlet:接收updateStu.jsp传来的学生信息，封装成一个新�
 	 * @throws SQLException<br>
 	 */<br>
 	int totalSize() throws SQLException;<br>
+	<hr>
 工具类：<br>
 JdbcUtil：封装了JDBC常用的方法<br>
 TextUtil:就一个方法，判断传入的字符串是否为空<br>
+	<hr>
 实体类：<br>
 Student<br>
 private int no;<br>
