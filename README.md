@@ -1,4 +1,8 @@
 # Student_Manage
+# 使用方式
+使用eclipse导入，数据库是使用的Mysql，需要在本地数据库创建相应的表，修改properties这个文件
+# 部分页面
+
 # B/S架构的学生管理系统
 一、	设计模式<br>
 三层架构模式<br>
